@@ -1,4 +1,0 @@
-
-object Equality extends App{
-
-}
