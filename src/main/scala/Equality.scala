@@ -1,0 +1,3 @@
+object Equality extends App {
+
+}
