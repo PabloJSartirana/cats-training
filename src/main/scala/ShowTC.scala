@@ -1,4 +1,4 @@
-import Implicits.Person
+import .Person
 import cats.*
 import cats.syntax.all.*
 
