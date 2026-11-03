@@ -56,17 +56,6 @@ Topics covered, in class order:
   signature and laws, Functor syntax, writing our own instance, compose
 - `Monads.scala`: map vs flatMap with counterexamples, fail fast,
   for comprehensions, Option/Either/List/Future, the Monad type class
-- `EitherTExample.scala`: `Future[Either]` with and without EitherT
-  (for a later session)
-
-Run a lesson:
-
-```bash
-sbt "runMain Monoids"
-sbt "runMain Functors"
-sbt "runMain Monads"
-sbt "runMain EitherTExample"
-```
 
 ## Session recordings
 
