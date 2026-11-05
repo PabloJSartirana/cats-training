@@ -4,7 +4,7 @@ scalaVersion := "3.3.6"
 
 libraryDependencies ++= Seq(
   "org.typelevel"     %% "cats-core" % "2.13.0",
-  "org.playframework" %% "play-json" % "3.0.4"
+  "org.playframework" %% "play-json" % "3.0.6"
 )
 
 scalacOptions ++= Seq(
