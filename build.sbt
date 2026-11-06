@@ -1,6 +1,6 @@
 name         := "cats-training"
 version      := "0.1.0"
-scalaVersion := "3.3.6"
+scalaVersion := "2.13.18"
 
 libraryDependencies ++= Seq(
   "org.typelevel"     %% "cats-core" % "2.13.0",
