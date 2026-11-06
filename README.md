@@ -11,6 +11,7 @@ recording and slides.
 |---|-------|--------|-------|
 | 1 | Implicits | [`lesson-1-implicits`](https://github.com/PabloJSartirana/cats-training/tree/lesson-1-implicits) | 2.13 |
 | 2 | Type Classes | [`lesson-2-typeClasses`](https://github.com/PabloJSartirana/cats-training/tree/lesson-2-typeClasses) | 3.3 |
+| 3 | Monoids, Functors and Monads | [`lesson-3-monads`](https://github.com/PabloJSartirana/cats-training/tree/lesson-3-monads) | 3.3 |
 
 ## Getting started
 
@@ -43,6 +44,18 @@ Topics covered:
   (trait, instances, interface object, interface syntax)
 - Cats' `Show` type class, pretty-printing
 - Cats' `Eq` type class, type-safe equality
+
+## Session 3: Monoids, Functors and Monads
+
+**Branch:** `lesson-3-monads` (Scala 3.3)
+
+Topics covered, in class order:
+
+- `Monoids.scala`: Monoid and Semigroup, the laws, Cats instances, `|+|` syntax
+- `Functors.scala`: the std-library map vs Cats' Functor, `F[_]`, the Functor
+  signature and laws, Functor syntax, writing our own instance, compose
+- `Monads.scala`: map vs flatMap with counterexamples, fail fast,
+  for comprehensions, Option/Either/List/Future, the Monad type class
 
 ## Session recordings
 
